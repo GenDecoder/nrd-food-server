@@ -1,0 +1,25 @@
+{
+  "name": "nrd-food-server",
+  "version": "1.0.0",
+  "description": "Simple Back End",
+  "main": "build/server.js",
+  "dependencies": {
+    "@types/node": "^7.0.11",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node build/server.js && tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GenDecoder/nrd-food-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GenDecoder/nrd-food-server/issues"
+  },
+  "homepage": "https://github.com/GenDecoder/nrd-food-server#readme"
+}
